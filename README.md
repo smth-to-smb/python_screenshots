@@ -9,7 +9,7 @@ Currently, this repository contains the following files:
 * `config_parsing.py` is the universal configuration parser of the `json_config.json` file
 * `filerename.py` contains the script which moves screenshot files, renames them, and returns a Markdown-formatted link in the CLI. Functionality of this script is discussed in the **Renaming files** section of this document
 
-## Confniguration
+## Configuration
 
 Currently, `json_config.json` contains several configuration parameters listed
 in the table below:

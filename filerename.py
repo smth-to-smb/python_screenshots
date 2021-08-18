@@ -75,7 +75,7 @@ for k in destinationfolderscan:
 destinationcounter += 1
 
 # Entering a screenshot caption
-figure_name = input("Enter the caption name (s - skip): ")
+figure_name = input("Enter the caption name (s - skip to the default caption, Enter - no caption name): ")
 skiplist = ['s', 'S']
 
 # Assigning the default name to the screenshot

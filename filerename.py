@@ -49,7 +49,7 @@ filestobemoved = []
 # a. Searching for files in the folder iterator
 # b. Appending them to the list of files
 for i in sourcefolderscan:
-    if i.find('Screenshot') != -1:
+    if i.find(settings["screenshotstartswith"]) != -1:
         filestobemoved.append(i)
 
 # Exiting the script if no new screenshots were found
@@ -80,7 +80,7 @@ skiplist = ['s', 'S']
 
 # Assigning the default name to the screenshot
 if figure_name in skiplist:
-    figure_name = settings["defaultcaptionnamingpattern"]
+    figure_name = settings["defaultcaption"]
 
 # Returning a Markdown-formatted link to the screenshot file
 for l in filestobemoved:

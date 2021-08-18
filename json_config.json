@@ -2,6 +2,7 @@
   "imagesfoldername": "python_images",
   "imagesfolderpath": "/home/anton/Desktop/",
   "imagesnamingpattern": "test_screenshot_",
-  "defaultcaptionnamingpattern": "Image",
+  "defaultcaption": "Image",
+  "screenshotstartswith": "Screenshot",
   "screenshotsourcefolderpath": "/home/anton/Pictures/"
 }
